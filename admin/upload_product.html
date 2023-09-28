@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+<title>Panneau de contrôle de l'administrateur</title>
+<link rel='stylesheet' href="../css/upload_product.css">
+</head>
+<body>
+ <center>
+     <div class="main">
+     <form action="insertion.php" method="post" enctype="multipart/from-data">
+        <h2>Panneau de contrôle de Lunetti</h2>
+        <img src="../images/Lunetti.gif"  alt="logo" width="300px">
+        <br>
+        <input type="text" name='code' placeholder="entrer le code du produit">
+        <br>
+        <input type="text" name='intitule' placeholder="entrer le nom du produit">
+        <br>
+        <input type="text" name='prix' placeholder="entrer le prix du produit">
+        <br>
+        <input type="text" name='descri' placeholder="entrer la description du produit">
+        <br>
+        <input type="file" id="file" name="photo" style="display:none;background-color: aquamarine;">
+        <label for="file">Télécharger une image </label>
+         <button name="upload">Télécharger le produit</button>
+         <br>
+         <br>
+         <a href="../user/shop.php">Liste des produits</a>
+    </form>
+    </div>
+    <p style="color:gray;font-weight:bold;">Développé par Mohamed Dhouib</p>
+</center>
+</body>
+</html>

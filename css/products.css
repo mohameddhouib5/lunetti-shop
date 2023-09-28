@@ -1,0 +1,92 @@
+h3{
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: underline;
+  }
+  
+  .card {
+    float: right;
+    margin: 20px 10px 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px silver;
+  }
+  
+  .card .section .img {
+    width: 100%;
+  }
+  
+  main {
+    width: 60%;
+  }
+  
+  .option a {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .option a:nth-child(1) {
+    background-color: black;
+  }
+  .option a:nth-child(2) {
+    background-color: green;
+  }
+  .option a:nth-child(3) {
+    background-color: teal;
+  }
+  .option a:nth-child(4) {
+    background-color: blue;
+  }
+  .option a:nth-child(5) {
+    background-color: orange;
+  }
+  .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    border-color: red;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c50000;
+    border-color: #c50000;
+  }
+  
+  .btn-primary {
+    background-color: blue;
+    border-color: blue;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0071c5;
+    border-color: #0071c5;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .disc {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+  <title>update| </title>
+  <link rel='stylesheet' href="../css/update.css">
+</head>
+<body>
+    <center>
+    <div class="main">
+        <form action="up.php" method="post" enctype="multipart/form-data">
+
+          <h2>Mise à jour du produit</h2>
+          <img src="../images/Lunetti.gif" alt="logo" width="300px">
+          <br>
+          <input type="text" name="id" placeholder="id">
+          <br>
+          <input type="text" name="code" placeholder="code">
+          <br>
+          <input type="text" name="intitule" placeholder="intitulé">
+          <br>
+          <input type="text" name="prix" placeholder="prix">
+          <br>
+          <input type="text" name="descri" placeholder="description">
+          <br>
+          <input type="file" id="file" name="photo" style="display:none;">
+          <label for="file">Mettre à jour l'image</label>
+          <br>
+          <button name="update" type="submit">Mettre à jour le produit</button>
+          <br>
+          <br>
+          <a href="products.php">Liste des produits</a>
+        </form>
+      </div>
+      <p style="color:gray;font-weight:bold;">Développé par Mohamed Dhouib</p>
+      
+  </center>
+</body>
+</html>
